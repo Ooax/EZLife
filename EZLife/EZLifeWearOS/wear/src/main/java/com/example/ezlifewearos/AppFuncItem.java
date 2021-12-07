@@ -5,30 +5,30 @@ import android.content.Context;
 import android.content.Intent;
 
 public class AppFuncItem {
-    private final String iName;
-    private final int iImageId;
-    private final Class iClass;
+    private final String itemName;
+    private final int itemImageId;
+    private final Class itemClass;
 
     public AppFuncItem(String input_name, int input_imageId, Class<? extends Activity> input_class){
-        iName = input_name;
-        iImageId = input_imageId;
-        iClass = input_class;
+        itemName = input_name;
+        itemImageId = input_imageId;
+        itemClass = input_class;
     }
 
-    public AppFuncItem(String input_name, int input_imageId){
-        iName = input_name;
-        iImageId = input_imageId;
-        iClass = null;
-    }
+//    public AppFuncItem(String input_name, int input_imageId, Class<? extends Activity> input_class){
+//        iName = input_name;
+//        iImageId = input_imageId;
+//        iClass = null;
+//    }
 
     public String getName(){
-        return iName;
+        return itemName;
     }
     public int getImageId(){
-        return iImageId;
+        return itemImageId;
     }
     public void launchActivity(Context context){
-        Intent intent = new Intent(context, iClass);
+        Intent intent = new Intent(context, itemClass);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
         context.startActivity(intent);

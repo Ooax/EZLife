@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/EZLife/EZLifeWearOS/mobile/src/main/res/layout/activity_main.xml" value="0.3734375" />
+        <entry key="..\:/EZLife/EZLifeWearOS/wear/src/main/res/drawable/outline_add_24.xml" value="1.6142857142857143" />
+        <entry key="..\:/EZLife/EZLifeWearOS/wear/src/main/res/drawable/outline_alarm_24.xml" value="1.6142857142857143" />
+        <entry key="..\:/EZLife/EZLifeWearOS/wear/src/main/res/drawable/outline_computer_24.xml" value="1.6142857142857143" />
+        <entry key="..\:/EZLife/EZLifeWearOS/wear/src/main/res/drawable/outline_directions_run_24.xml" value="1.6142857142857143" />
+        <entry key="..\:/EZLife/EZLifeWearOS/wear/src/main/res/drawable/outline_done_24.xml" value="1.6142857142857143" />
+        <entry key="..\:/EZLife/EZLifeWearOS/wear/src/main/res/drawable/outline_vibration_24.xml" value="1.6142857142857143" />
+        <entry key="..\:/EZLife/EZLifeWearOS/wear/src/main/res/drawable/outline_volume_up_24.xml" value="1.6142857142857143" />
+        <entry key="..\:/EZLife/EZLifeWearOS/wear/src/main/res/layout/activity_alarm.xml" value="1.6200657894736843" />
+        <entry key="..\:/EZLife/EZLifeWearOS/wear/src/main/res/layout/activity_alarm_edit.xml" value="1.5035714285714286" />
+        <entry key="..\:/EZLife/EZLifeWearOS/wear/src/main/res/layout/activity_main.xml" value="1.6398026315789473" />
+        <entry key="..\:/EZLife/EZLifeWearOS/wear/src/main/res/layout/activity_wol.xml" value="0.4986737400530504" />
+        <entry key="..\:/EZLife/EZLifeWearOS/wear/src/main/res/layout/alarm_item_layout.xml" value="1.5035714285714286" />
+        <entry key="..\:/EZLife/EZLifeWearOS/wear/src/main/res/layout/main_menu_item_layout.xml" value="1.6398026315789473" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

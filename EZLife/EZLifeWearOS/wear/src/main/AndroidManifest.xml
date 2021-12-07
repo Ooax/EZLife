@@ -34,6 +34,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+		<activity
+			android:name=".AlarmActivity">
+		</activity>
+		<activity
+			android:name=".WOLActivity">
+		</activity>
+		<activity
+			android:name=".AlarmEditActivity">
+		</activity>
     </application>
 
 </manifest>

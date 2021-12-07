@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class MainMenuListAdapter extends RecyclerView.Adapter<MenuRecyclerViewAdapter.ViewHolder>{
+public class MainMenuListAdapter extends RecyclerView.Adapter<MainMenuListAdapter.Holder>{
 
     private final Context menuContext;
     private final LayoutInflater menuInflater;
@@ -25,12 +25,12 @@ public class MainMenuListAdapter extends RecyclerView.Adapter<MenuRecyclerViewAd
     }
 
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        return new ViewHolder(menuInflater.inflate(R.layout.main_menu_item_layout, parent, false));
+    public Holder onCreateViewHolder(ViewGroup parent, int viewType) {
+        return new Holder(menuInflater.inflate(R.layout.main_menu_item_layout, parent, false));
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(Holder holder, int position) {
         if(menuItems.isEmpty()){
             return;
         }
@@ -51,11 +51,11 @@ public class MainMenuListAdapter extends RecyclerView.Adapter<MenuRecyclerViewAd
         return menuItems.size();
     }
 
-    static class ViewHolder extends RecyclerView.ViewHolder {
+    static class Holder extends RecyclerView.ViewHolder {
         TextView itemTextView;
         ImageView itemImageView;
 
-        public ViewHolder(final View itemView){
+        public Holder(final View itemView){
             super(itemView);
             itemTextView = itemView.findViewById(R.id.text_view);
             itemImageView = itemView.findViewById(R.id.image_view);
