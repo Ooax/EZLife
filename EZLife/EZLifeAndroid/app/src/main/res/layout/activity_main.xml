@@ -15,7 +15,10 @@
             android:src="@drawable/ic_baseline_info_24"
             android:layout_marginBottom="10dp"/>
 
-
+    <Spinner
+        android:id="@+id/savedPC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -41,6 +44,11 @@
         android:inputType="number"
         android:layout_marginBottom="10dp"/>
     </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/savePC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"/>
     <Button
         android:id="@+id/buttonAddresses"
         android:layout_width="match_parent"
