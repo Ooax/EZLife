@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/p-prz/source/repos/EZLife/EZLife/EZLifeAndroid/app/src/main/res/drawable/ic_baseline_desktop_windows_96.xml" value="0.24375" />
+        <entry key="..\:/Users/p-prz/source/repos/EZLife/EZLife/EZLifeAndroid/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.24375" />
         <entry key="..\:/Users/p-prz/source/repos/EZLife/EZLife/EZLifeAndroid/app/src/main/res/layout/activity_main.xml" value="0.33469202898550726" />
+        <entry key="..\:/Users/p-prz/source/repos/EZLife/EZLife/EZLifeAndroid/app/src/main/res/layout/menu.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/p-prz/source/repos/EZLife/EZLife/EZLifeAndroid/app/src/main/res/menu/main_activity_menu.xml" value="0.22760416666666666" />
       </map>
     </option>
   </component>
