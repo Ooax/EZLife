@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8bafd789-e990-4427-9746-25fb216beb7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/androidTest/java/com/example/ezlifeandroid/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/java/com/example/ezlifeandroid/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/java/com/example/ezlifeandroid/PCData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/java/com/example/ezlifeandroid/WakeOnLan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/drawable/ic_baseline_desktop_windows_48.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/drawable/ic_baseline_info_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/menu/bottom_navigation_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/menu/main_activity_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/app/src/test/java/com/example/ezlifeandroid/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeAndroid/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/androidTest/java/com/example/ezlifewearos/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/java/com/example/ezlifewearos/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/mobile/src/test/java/com/example/ezlifewearos/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/src/main/java/com/example/ezlifewearos/AppFuncItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/src/main/java/com/example/ezlifewearos/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/src/main/java/com/example/ezlifewearos/MainMenuListAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/src/main/res/layout/main_menu_item_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/src/main/res/values-round/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EZLife/EZLifeWearOS/wear/src/main/res/values/strings.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="27e0cHtR7sK8MG3WzmGk4C5DCqb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bafd789-e990-4427-9746-25fb216beb7f" name="Default Changelist" comment="" />
+      <created>1649665321953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649665321953</updated>
+    </task>
+    <servers />
+  </component>
+</project>
