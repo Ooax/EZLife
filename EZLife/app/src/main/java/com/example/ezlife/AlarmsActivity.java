@@ -49,7 +49,7 @@ public class AlarmsActivity extends AppCompatActivity {
         alarmsLayout = findViewById(R.id.alarmsLayout);
         cardsLayout = findViewById(R.id.cardLayout);
 
-        bottomNavigationView.setSelectedItemId(R.id.page_3);
+        bottomNavigationView.setSelectedItemId(R.id.page_2);
 
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
@@ -60,10 +60,6 @@ public class AlarmsActivity extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.page_2:
-                        startActivity(new Intent(getApplicationContext(), MessageActivity.class));
-                        overridePendingTransition(0,0);
-                        return true;
-                    case R.id.page_3:
                         startActivity(new Intent(getApplicationContext(), AlarmsActivity.class));
                         overridePendingTransition(0,0);
                         return true;
