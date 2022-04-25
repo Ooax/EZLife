@@ -24,5 +24,7 @@
         </activity>
         <activity android:name="com.example.ezlife.MessageActivity"
             android:exported="true"/>
+        <activity android:name="com.example.ezlife.AlarmsActivity"
+            android:exported="true"/>
     </application>
 </manifest>

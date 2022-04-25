@@ -103,6 +103,10 @@ public class MessageActivity extends AppCompatActivity implements DataClient.OnD
                         startActivity(new Intent(getApplicationContext(), MessageActivity.class));
                         overridePendingTransition(0,0);
                         return true;
+                    case R.id.page_3:
+                        startActivity(new Intent(getApplicationContext(), AlarmsActivity.class));
+                        overridePendingTransition(0,0);
+                        return true;
                 }
                 return false;
             }

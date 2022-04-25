@@ -9,4 +9,9 @@
         android:enabled="true"
         android:icon="@drawable/ic_baseline_watch_48"
         android:title="WDL"/>
+    <item
+        android:id="@+id/page_3"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_access_alarm_48"
+        android:title="Alarms"/>
 </menu>
