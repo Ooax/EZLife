@@ -8,8 +8,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import java.util.ArrayList;
 
-public class AlarmsDatabase extends SQLiteOpenHelper {
-    public AlarmsDatabase(Context context) {
+public class AlarmDatabase extends SQLiteOpenHelper {
+    public AlarmDatabase(Context context) {
         super(context, Alarm.databaseName, null, 1);
     }
 

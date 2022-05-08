@@ -2,15 +2,12 @@ package com.example.ezlife;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -20,7 +17,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.card.MaterialCardView;
@@ -31,11 +27,9 @@ import com.google.gson.Gson;
 
 import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
-import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
 import java.util.Date;
 
-public class AlarmsActivity extends AppCompatActivity {
+public class AlarmActivity extends AppCompatActivity {
     private BottomNavigationView bottomNavigationView;
     private LinearLayout alarmsLayout;
     private LinearLayout cardsLayout;
@@ -60,7 +54,7 @@ public class AlarmsActivity extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.page_2:
-                        startActivity(new Intent(getApplicationContext(), AlarmsActivity.class));
+                        startActivity(new Intent(getApplicationContext(), AlarmActivity.class));
                         overridePendingTransition(0,0);
                         return true;
                 }
@@ -74,7 +68,7 @@ public class AlarmsActivity extends AppCompatActivity {
             message.initialiseDevicePairing(this);
         }
 
-        AlarmsDatabase db = new AlarmsDatabase(this);
+        AlarmDatabase db = new AlarmDatabase(this);
         db.removeRecord(0);
         db.removeRecord(1);
         db.removeRecord(2);
@@ -95,7 +89,7 @@ public class AlarmsActivity extends AppCompatActivity {
         return Boolean.parseBoolean(s) ? "On" : "Off";
     }
 
-    public void CreateAlarms(AlarmsDatabase db) {
+    public void CreateAlarms(AlarmDatabase db) {
         Alarm[] alarms = db.getAllRecords();
         for (Alarm a: alarms
              ) {
@@ -115,7 +109,7 @@ public class AlarmsActivity extends AppCompatActivity {
             textView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    AlertDialog alertDialog  = new MaterialAlertDialogBuilder(new ContextThemeWrapper(AlarmsActivity.this, com.google.android.material.R.style.ThemeOverlay_Material3_MaterialAlertDialog)).create();
+                    AlertDialog alertDialog  = new MaterialAlertDialogBuilder(new ContextThemeWrapper(AlarmActivity.this, com.google.android.material.R.style.ThemeOverlay_Material3_MaterialAlertDialog)).create();
                     alertDialog.setTitle("Alarm details");
                     alertDialog.setMessage(
                             "Alarm time: " + alarmTime + '\n' + "Alarm days: " + a.days + '\n' + "Alarm state: " + booleanToString(a.isOn) + '\n' +
@@ -159,7 +153,7 @@ public class AlarmsActivity extends AppCompatActivity {
         }
     }
 
-    private void syncDatabase(AlarmsDatabase db) {
+    private void syncDatabase(AlarmDatabase db) {
         Alarm[] alarmList = db.getAllRecords();
         Gson gson = new Gson();
         String json = gson.toJson(alarmList);

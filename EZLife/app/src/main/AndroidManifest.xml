@@ -22,7 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.ezlife.AlarmsActivity"
+        <activity android:name="com.example.ezlife.AlarmActivity"
             android:exported="true"/>
     </application>
 </manifest>
